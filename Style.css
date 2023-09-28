@@ -12,11 +12,6 @@ body {
   background: #1abc9c;
   color: white;
 }
-.navbar {
-  display: flex;
-  background-color: #333;
-  flex-direction: column;
-}
 .navbar a {
   color: white;
   padding: 14px 20px;
@@ -32,18 +27,23 @@ body {
 .row {  
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .side {
   flex: 30%;
   background-color: #ffffff;
   padding: 20px;
+  
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
   flex: 70%;
   background-color: rgb(62, 157, 163);
   padding: 20px;
+  
 }
 .footer {
   padding: 20px;
