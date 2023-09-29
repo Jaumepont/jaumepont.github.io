@@ -40,7 +40,7 @@ body {
 .column {
   
   display: flex;
-  flex: 10%;
+  flex: 5%;
 
   flex-direction: column;
   background-color: #333;
@@ -54,7 +54,7 @@ body {
 }
 
 .main {
-  flex: 70%;
+  flex: 90%;
   background-color: rgb(62, 157, 163);
   padding: 20px;
   
