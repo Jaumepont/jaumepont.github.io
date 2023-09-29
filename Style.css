@@ -67,6 +67,6 @@ body {
 
 @media screen and (max-width: 700px) {
   .row, .column {   
-    flex-direction: column;
+    display: flex;
   }
 }
